@@ -293,6 +293,10 @@ None. Works fine.
 </tbody>
 </table>
 
+### System Testing 
+Here are the details:
+[System Testing](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/SystemTesting.md)
+
 ### User Testing
 Here are the results:
 [User Testing Questionnaire Summary](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/UserTesting.md)
