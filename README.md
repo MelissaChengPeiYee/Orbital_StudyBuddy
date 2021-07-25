@@ -80,14 +80,7 @@ We hope to be able to provide users with a platform for them to participate in d
   <tr>
     <td class="tg-0pky">As a host, I might want to close all vacancies after a certain point of time.</td>
   </tr>
-  <tr>
-    <td class="tg-0pky" rowspan="2">Upload resources<br></td>
-    <td class="tg-0pky" rowspan="2">Upload files from mobile<br></td>
-    <td class="tg-0pky">As a user, I want to upload my notes into a channel where other people can see them.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">As a user, I’d like to pose my questions if there is a questions channel in the form of an image.</td>
-  </tr>
+  
   <tr>
     <td class="tg-0pky">Chat</td>
     <td class="tg-0pky">Chat with other users</td>
