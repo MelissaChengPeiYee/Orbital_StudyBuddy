@@ -8,23 +8,23 @@
             * [1.1 Main Design](#11-main-design)
             * [1.2 Relevant Tools](#12-relevant-tools)
             * [1.3 Installation](#13-installation)
-        * [2. Basic app flow](#2-app-flow)
+        * [2. Basic App Flow](#2-app-flow)
             * [2.1 User Flow](#21-user-flow)
             * [2.2 Basic System Flow(Authentication)](#22-system-flowauthentication)
                 * [2.21 Sign up System Flow](#221-sign-up-system-flow)
-                    * [2.211 Data updates to Firebase Firestore](#2211-data-updates-to-firebase-firestore)
+                    * [2.211 Data Updates to Firebase Firestore](#2211-data-updates-to-firebase-firestore)
                 * [2.22 Log in System Flow](#222-log-in-system-flow)
           
         * [3. Implementation](#3-implementation)
-            * [3.1 Create study group Feature](#31-create-study-group-feature)
+            * [3.1 Create Study Group Feature](#31-create-study-group-feature)
                 * [3.11 Data Updates to Firebase Firestore](#311-data-updates-to-firebase-firestore)
-            * [3.2 Join study group Feature](#32-join-study-group-feature)
+            * [3.2 Join Study Group Feature](#32-join-study-group-feature)
                 * [3.21 Displaying Study Group Lists](#321-rendering-study-group-lists)
                 * [3.22 Join Group Flow](#322-join-group-flow)
-                * [3.23 Data updates to Firebase Firestore](#323-data-updates-to-firebase-firestore)
-            * [3.3 View study group Feature ](#33-view-study-group-feature)
-                * [3.31 Displaying user's study group lists](#331-displaying-users-study-group-lists)
-                * [3.32 Displaying additional ZOOM Meeting details](#332-displaying-additional-zoom-meeting-details)
+                * [3.23 Data Updates to Firebase Firestore](#323-data-updates-to-firebase-firestore)
+            * [3.3 View Study Group Feature ](#33-view-study-group-feature)
+                * [3.31 Displaying User's Study Group Lists](#331-displaying-users-study-group-lists)
+                * [3.32 Displaying Additional ZOOM Meeting Details](#332-displaying-additional-zoom-meeting-details)
             * [3.4 Chat Feature](#34-chat-feature)
     
         * [4. Testing](#4-testing)
@@ -79,7 +79,7 @@ Developers can then do ```yarn install``` to download the node modules.
 
 Once done, you are free to develop anything on the app. Happy journey ahead!
 
-### 2. App flow
+### 2. App Flow
 
 #### 2.1 User Flow
 
@@ -91,7 +91,7 @@ Once done, you are free to develop anything on the app. Happy journey ahead!
 
 <img src = "https://i.ibb.co/xHRHJrj/Untitled-1-1.png" width = "500" height = "300"/>
 
-###### 2.211 Data updates to Firebase Firestore
+###### 2.211 Data Updates to Firebase Firestore
 
 *  Under the ```Users``` Collection, a new user id will be randomly generated. The new document id will be the new user id generated randomly by Firestore, representing the new user. <br><br>The document consists of the following fields: <br><br>
 ```uid``` the id of the user  <br><br>
@@ -112,7 +112,7 @@ Once done, you are free to develop anything on the app. Happy journey ahead!
 
 <img src = "https://i.ibb.co/92f05xK/Untitled-3.png" width = "500" height = "500"/>
 
-##### 3.11 Data updates to Firebase Firestore
+##### 3.11 Data Updates to Firebase Firestore
 
 Under  ```api/dataServices``` , the  ```createGroup``` function updates the following fields on Firestore database:
 
@@ -141,9 +141,9 @@ Upon creating a study group, the field ```vacancy``` reduces by one. All other f
 * ** The same applies to the ```Groups``` Collection, however the ```Groups``` Collection consists one additional ```Chats``` subcollection for storing chat details within each study groups.
 
 
-#### 3.2 Join study group feature
+#### 3.2 Join Study Group Feature
 
-##### 3.21 Rendering study group lists
+##### 3.21 Rendering Study Group Lists
 Under  ```api/dataServices``` , the  ```getOtherGroups``` function is in charge of rendering a flat list of groups for the users to join. It filters out the groups which the user has already joined or created as well as the groups that are no longer available (maximum pax reached), and display according to the ascending order of the study group meeting date. If the user wants to display by module name, he/she can utilize the search bar filter function. 
 
 
@@ -151,7 +151,7 @@ Under  ```api/dataServices``` , the  ```getOtherGroups``` function is in charge 
 
 <img src = "https://i.ibb.co/rtrJBky/Untitled-5.png" width = "300" height = "300"/>
 
-##### 3.23 Data updates to Firebase Firestore
+##### 3.23 Data Updates to Firebase Firestore
 
 Under  ```api/dataServices``` , the  ```joinGroup``` function updates the following fields on Firestore database:
 
@@ -165,12 +165,12 @@ If the field ```vacancy``` becomes 1, the field ```available``` will be set to f
 
 * ** The same applies to the ```Groups``` Collection.
 
-#### 3.3 View study group feature
+#### 3.3 View Study Group Feature
 
-##### 3.31 Displaying user's study group lists
+##### 3.31 Displaying User's Study Group Lists
 Under  ```api/dataServices``` , the  ```getGroups``` function is in charge of rendering a flat list of groups that the users has joined or created themselves. 
 
-##### 3.32 Displaying additional ZOOM Meeting details
+##### 3.32 Displaying Additional ZOOM Meeting Details
 
 Under  ```api/dataServices``` , the  ```getGroupData``` function is in charge of displaying additional group meeting details.
 
