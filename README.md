@@ -294,12 +294,16 @@ None. Works fine.
 </table>
 
 ### System Testing 
-Here are the details:
-[System Testing](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/SystemTesting.md)
+We conducted system testing screen by screen before publishing our app.
+
+You can find the details on system testing [here](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/SystemTesting.md).
 
 ### User Testing
-Here are the results:
-[User Testing Questionnaire Summary](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/UserTesting.md)
+We conducted a survey through Google Forms which can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSc8kXDYUngq85MD3wxsAuGCM_vyHuFQ2f8aqOYG8_ESHkUoug/viewform?usp=sf_link).
+
+The survey included a small task list for participants to attempt and try. They include the main functionalities of our extension.
+
+You can also find the questions and results of our surveys [here](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/UserTesting.md).
 
 
 ### External links 
