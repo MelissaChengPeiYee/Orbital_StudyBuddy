@@ -305,11 +305,11 @@ None. Works fine.
 
 ### User Testing:
 Here are the results:
-[User Testing Questionnaire Summary](https://github.com/MelissaChengPeiYee/StudyBuddy/blob/main/UserTesting.md)
+[User Testing Questionnaire Summary](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/UserTesting.md)
 
 
 ### External links :
 
 - [User Guide](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/UserGuide.md)
 - [Developer Guide](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/DeveloperGuide.md)
-- [Project Log](https://github.com/MelissaChengPeiYee/StudyBuddy/blob/main/ProjectLog.md)
+- [Project Log](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/ProjectLog.md)
