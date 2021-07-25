@@ -172,16 +172,13 @@ We provide a messaging feature for easy communication between study group member
     <td class="tg-0lax">Allow users to interact with other users within the same session via chat function.</td>
   </tr>
   <tr>
-    <th class="tg-0lax" colspan="2"><span style="font-weight:bold">Upload resources</span></th>
+    <th class="tg-0lax" colspan="2"><span style="font-weight:bold">Connect meeting apps</span></th>
   </tr>
   <tr>
-    <td class="tg-0lax">Upload file</td>
-    <td class="tg-0lax">Allow users to upload their notes to the group.</td>
+    <td class="tg-0lax">Direct access to other meeting websites or apps</td>
+    <td class="tg-0lax">Allow users to connect to other meeting apps such as Google Meeting or Zoom within the app.</td>
   </tr>
-  <tr>
-    <td class="tg-0lax">Download file</td>
-    <td class="tg-0lax">Allow users to download resources to their local device.</td>
-  </tr>
+ 
 </tbody>
 </table>
 
