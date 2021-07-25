@@ -311,5 +311,5 @@ Here are the results:
 ### External links :
 
 - [User Guide](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/UserGuide.md)
-- [Developer Guide](https://github.com/MelissaChengPeiYee/StudyBuddy/blob/main/DevelopersGuide.md)
+- [Developer Guide](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/DeveloperGuide.md)
 - [Project Log](https://github.com/MelissaChengPeiYee/StudyBuddy/blob/main/ProjectLog.md)
