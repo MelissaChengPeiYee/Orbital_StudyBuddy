@@ -192,7 +192,7 @@ We conducted a survey through Google Forms which can be found [here](https://doc
 
 The survey included a small task list for participants to attempt and try. They include the main functionalities of our extension.
 
-You can also find the questions and results of our surveys here.
+You can also find the questions and results of our surveys [here](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/UserTesting.md).
 
 
 
