@@ -8,9 +8,9 @@
             * [1.1 Main Design](#11-main-design)
             * [1.2 Relevant Tools](#12-relevant-tools)
             * [1.3 Installation](#13-installation)
-        * [2. Pipeline](#2-pipeline)
+        * [2. Basic app flow](#2-app-flow)
             * [2.1 User Flow](#21-user-flow)
-            * [2.2 Basic System Flow(Authentication)](#22-system-flow)
+            * [2.2 Basic System Flow(Authentication)](#22-system-flowauthentication)
                 * [2.21 Sign up System Flow](#221-sign-up-system-flow)
                     * [2.211 Data updates to Firebase Firestore](#2211-data-updates-to-firebase-firestore)
                 * [2.22 Log in System Flow](#222-log-in-system-flow)
@@ -79,13 +79,13 @@ Developers can then do ```yarn install``` to download the node modules.
 
 Once done, you are free to develop anything on the app. Happy journey ahead!
 
-### 2. Pipeline
+### 2. App flow
 
 #### 2.1 User Flow
 
 <img src = "https://i.ibb.co/zRsJ3sL/Untitled.png" width = "600" height = "500"/>
 
-#### 2.2 System Flow
+#### 2.2 System Flow(Authentication)
 
 ##### 2.21 Sign Up System Flow
 
