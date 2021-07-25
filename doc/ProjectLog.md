@@ -497,7 +497,7 @@
     <td class="tg-0pky">23/7/2021</td>
     <td class="tg-0pky">5</td>
     <td class="tg-0pky">5</td>
-    <td class="tg-0pky">Pei Yee - Documenting Developer Guide<br>Rida - Adding code for extra functions and my design into the new version that is compatible with iOS</td>
+    <td class="tg-0pky">Pei Yee - Documenting Developer Guide + System Testing <br>Rida - Adding code for extra functions and my design into the new version that is compatible with iOS</td>
   </tr>
   <tr>
     <td class="tg-0pky">20.</td>
@@ -1004,7 +1004,7 @@
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">23/7/2021</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">5</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">5</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Pei Yee - Documenting Developer Guide</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Rida - Adding code for extra functions and my design into the new version that is compatible with iOS</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Pei Yee - Documenting Developer Guide + System Testing</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Rida - Adding code for extra functions and my design into the new version that is compatible with iOS</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">20.</span></td>
