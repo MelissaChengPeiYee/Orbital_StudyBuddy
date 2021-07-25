@@ -293,6 +293,10 @@ None. Works fine.
 </tbody>
 </table>
 
+### Problems Encountered and Bugs Squashed
+* Orbitee 1's code from Milestone 2 cannot run on Orbitee 2's device. Fixed by removing React-Native-Firebase packages.
+
+
 ### System Testing 
 We conducted system testing screen by screen before publishing our app.
 
