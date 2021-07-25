@@ -296,7 +296,7 @@ None. Works fine.
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Filter</td>
+    <td class="tg-0pky">Filter search</td>
     <td class="tg-0pky">Users can filter search the groups they want to join via searching for the subject in the search bar.</td>
   </tr>
  
