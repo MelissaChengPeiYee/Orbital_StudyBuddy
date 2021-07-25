@@ -1,5 +1,9 @@
-* **User Guide**
-    * Team Study Buddy 
+# **Orbital 2021 User Guide** 
+
+## Team Study Buddy 
+
+* [**Orbital 2021 User Guide** ](#orbital-2021-user-guide)
+    * [Team Study Buddy](#team-study-buddy)
         * [For new user](#register-for-a-new-user-account)
              * [1. Registration](#register-for-a-new-user-account)
            
