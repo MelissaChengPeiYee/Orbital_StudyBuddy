@@ -11,7 +11,7 @@ export default Precreate = ({navigation, route}) => {
     
     return (
         <SafeAreaView style = {styles.container} >
-            <IconButton  icon = 'arrow-left-bold' size = {60} color = 'purple' 
+            <IconButton  icon = 'arrow-left-bold' size = {60} color = {Colors.newtwo}
         onPress = {() => navigation.navigate("Home")}></IconButton>
            <Text style = {styles.text}>Hold Up! {'\n'}
            Please have your Zoom meeting scheduled and your code and password ready!
@@ -19,7 +19,7 @@ export default Precreate = ({navigation, route}) => {
             </Text>
             <Button 
              mode = 'contained'
-             color = {Colors.tertiary}
+             color = {Colors.new}
              compact = {true}
              onPress= {() => {navigation.navigate("Create")}}
              style = {{marginTop:50}}

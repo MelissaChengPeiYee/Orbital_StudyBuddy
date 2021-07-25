@@ -58,8 +58,8 @@ export default Home = ({navigation, route}) => {
   
      <View style = {styles.allbutton}>
       <Button 
-      style = {styles.button} 
-      mode = "outlined" 
+      style = {styles.buttonone} 
+      mode = "contained" 
       labelStyle = {styles.buttontext} 
       icon = "clipboard-text"
       compact = {true}
@@ -69,8 +69,8 @@ export default Home = ({navigation, route}) => {
       </Button>
       
       <Button 
-      style = {styles.button} 
-      mode = "outlined" 
+      style = {styles.buttontwo} 
+      mode = "contained" 
       compact = {true}
       labelStyle = {styles.buttontext} 
       onPress = {() => navigation.navigate("Join")}
@@ -80,7 +80,7 @@ export default Home = ({navigation, route}) => {
       
       <Button 
       style = {styles.button} 
-      mode = "outlined" 
+      mode = "contained" 
       labelStyle = {styles.buttontext} 
       icon = "plus"
       compact = {true}
@@ -130,11 +130,29 @@ const styles = StyleSheet.create({
   button:{
     width:300,
     height:50,
+    borderRadius:50,
     marginBottom:50,
-    justifyContent:'center'
+    justifyContent:'center',
+    backgroundColor: Colors.new
+  },
+  buttonone:{
+    width:300,
+    height:50,
+    borderRadius:50,
+    marginBottom:50,
+    justifyContent:'center',
+    backgroundColor: Colors.newone
+  },
+  buttontwo:{
+    width:300,
+    height:50,
+    borderRadius:50,
+    marginBottom:50,
+    justifyContent:'center',
+    backgroundColor: Colors.newtwo
   },
   buttontext:{
-    color: Colors.secondary,
+    color: Colors.contrast_new,
     fontSize:20
   },
   allbutton: {

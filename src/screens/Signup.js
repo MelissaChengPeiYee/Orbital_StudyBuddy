@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import {
   Keyboard,
   Image,
@@ -21,6 +21,8 @@ export default Signup = ({navigation, route}) => {
   const [isSignedUp, setIsSignedUp] = useState(false)
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
   const [isRegisterLoading, setIsRegisterLoading] = useState(false);
+  const passwordTextInput = useRef();
+  const emailTextInput = useRef();
 
   const handleNameUpdate = (text) => setName(text)
   const handleEmailUpdate = (text) => setEmail(text)
@@ -70,8 +72,10 @@ export default Signup = ({navigation, route}) => {
             autoCapitalize="words"
             returnKeyType="next"
             blurOnSubmit={false}
+            onSubmitEditing={() => emailTextInput.current.focus()}
         />
         <TextInput
+        ref = {emailTextInput}
             style={styles.textInput}
             placeholder="Email"
             placeholderTextColor = {Colors.contrastprimary}
@@ -81,8 +85,10 @@ export default Signup = ({navigation, route}) => {
             autoCapitalize="words"
             returnKeyType="next"
             blurOnSubmit={false}
+            onSubmitEditing={() => passwordTextInput.current.focus()}
         />
         <TextInput
+        ref = {passwordTextInput}
             style={styles.textInput}
             placeholder="Password"
             placeholderTextColor = {Colors.contrastprimary}
@@ -94,10 +100,12 @@ export default Signup = ({navigation, route}) => {
                     name= {isPasswordVisible? "eye" : "eye-off"}
                     color= {Colors.contrastprimary}
                     onPress= {() => setIsPasswordVisible(!isPasswordVisible)}/>}
+            onSubmitEditing={() => Keyboard.dismiss()}
         />
         <Button
             style={styles.button}
             compact = {true}
+            mode = "contained"
             onPress={  () => {
               handleRegister();
               isRegisterLoading? null : navigation.navigate('Signup')}}
@@ -140,7 +148,7 @@ const styles = StyleSheet.create({
     textAlign:"center"
   },
   button: {
-    backgroundColor: Colors.secondary,
+    backgroundColor: Colors.secondaryone,
     width:150,
     height: 30,
     alignSelf: "center",

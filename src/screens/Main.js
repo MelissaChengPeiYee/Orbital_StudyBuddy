@@ -24,7 +24,8 @@ export default Main = ({navigation, route}) => {
             
             <Button onPress = {() => {navigation.navigate('Signup')}}
                     style = {styles.button}
-                    labelStyle = {styles.buttontext}>
+                    labelStyle = {styles.buttontext}
+                    mode = "contained">
             Create an account
             </Button>
            
@@ -68,12 +69,13 @@ export default Main = ({navigation, route}) => {
         alignSelf:"center"
       },
       button: {
-        backgroundColor: Colors.secondary,
+        backgroundColor: Colors.secondaryone,
         width:270,
         height: 40,
         alignSelf: "center",
         marginTop: 100,
-        marginBottom: 20
+        marginBottom: 20,
+        borderRadius:50
       },
       buttontext:{
         fontWeight: "bold",

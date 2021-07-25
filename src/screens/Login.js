@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
 import {
   Image,
   Text,
@@ -20,6 +20,7 @@ export default Login = ({navigation, route}) => {
   const [password, setPassword] = useState("");
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
   const [isLoginLoading, setIsLoginLoading] = useState(false);
+  const passwordTextInput = useRef();
 
   const handleLogin = () => {
     Keyboard.dismiss();
@@ -63,9 +64,11 @@ export default Login = ({navigation, route}) => {
              autoCapitalize="words"
              returnKeyType="next"
              blurOnSubmit={false}
+             onSubmitEditing = {() => passwordTextInput.current.focus()}
            
         />
         <TextInput
+        ref = {passwordTextInput}
             style={styles.textInput}
             placeholder="Password"
             placeholderTextColor = {Colors.contrastprimary}
@@ -77,10 +80,12 @@ export default Login = ({navigation, route}) => {
                     name= {isPasswordVisible? "eye" : "eye-off"}
                     color=  {Colors.contrastprimary}
                     onPress= {() => setIsPasswordVisible(!isPasswordVisible)}/>}
+            onSubmitEditing={() => Keyboard.dismiss()} 
         />
         <Button
             style={styles.button}
             compact = {true}
+            mode = 'contained'
             onPress={() => {handleLogin()}}
             labelStyle = {{
               color: 'black',
@@ -123,15 +128,18 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     width: 300,
     height: 50,
-    textAlign:"center"
+    textAlign:"center",
+    
   },
   button: {
-    backgroundColor:Colors.secondary,
+    backgroundColor:Colors.secondaryone,
     width:150,
     height: 30,
     alignSelf: "center",
     marginTop: 20,
-    marginBottom: 20
+    marginBottom: 20,
+    borderRadius:50
+    
   },
   slogan:{
     fontSize:30,

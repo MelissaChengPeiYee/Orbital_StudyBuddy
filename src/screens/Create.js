@@ -137,7 +137,7 @@ const isValidLink = () => link == "" ? false : true
 
 
         <ScrollView>
-          <IconButton icon='arrow-left-bold' size={60} color='purple'
+          <IconButton icon='arrow-left-bold' size={60} color={Colors.newtwo}
             onPress={() => navigation.navigate("Precreate")}></IconButton>
 
           <Text style={{ fontSize: 30, fontWeight: 'bold' }}>Just some information...</Text>
@@ -146,6 +146,7 @@ const isValidLink = () => link == "" ? false : true
 
 
 style={styles.textInput}
+ 
 placeholder="Insert module"
 placeholderTextColor={Colors.contrast_tertiary}
 onChangeText={setModule}
@@ -153,6 +154,7 @@ value= {module}
 
 blurOnSubmit={false}
 autoCapitalize="none"
+onSubmitEditing={() => Keyboard.dismiss()}
 
 
 />
@@ -210,6 +212,7 @@ autoCapitalize="none"
             <TextInput
               ref={linkTextInput}
               style={styles.textInput}
+              
               placeholder="Insert zoom link"
               placeholderTextColor={Colors.contrast_tertiary}
               onChangeText={setLink}
@@ -222,7 +225,7 @@ autoCapitalize="none"
           <View style={styles.doneButton}>
             <Button
               mode='contained'
-              color={Colors.tertiary}
+              color={Colors.new}
               compact={true}
               onPress={onCreate}
 
@@ -248,10 +251,14 @@ const styles = StyleSheet.create({
   dateContainer: {
     marginTop: 20,
     alignItems: 'center',
+    borderRadius:300,
+
+    
   },
   textInput: {
-    backgroundColor: Colors.tertiary,
+    backgroundColor: Colors.newthree,
     fontSize: 18,
+    color:Colors.contrast_new,
     marginBottom: 30,
     width: 300,
     height: 30,
@@ -259,7 +266,8 @@ const styles = StyleSheet.create({
   },
   button: {
     width: 300,
-    backgroundColor: Colors.tertiary,
+    backgroundColor: Colors.new,
+    borderRadius:300
   },
   buttonContainer: {
     marginBottom: 30
