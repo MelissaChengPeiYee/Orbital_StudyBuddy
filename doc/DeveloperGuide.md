@@ -187,6 +187,10 @@ Under the ```Chats``` subcollection, whenever a user sends a message, a unique i
 
 #### 4.1 System Testing
 
+We conducted system testing screen by screen before publishing our app.
+
+You can find the details on system testing [here](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/SystemTesting.md).
+
 #### 4.2 User Testing
 We conducted a survey through Google Forms which can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSc8kXDYUngq85MD3wxsAuGCM_vyHuFQ2f8aqOYG8_ESHkUoug/viewform?usp=sf_link).
 
