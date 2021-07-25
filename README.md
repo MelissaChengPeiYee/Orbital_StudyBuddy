@@ -293,12 +293,12 @@ None. Works fine.
 </tbody>
 </table>
 
-### User Testing:
+### User Testing
 Here are the results:
 [User Testing Questionnaire Summary](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/UserTesting.md)
 
 
-### External links :
+### External links 
 
 - [User Guide](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/UserGuide.md)
 - [Developer Guide](https://github.com/MelissaChengPeiYee/Orbital_StudyBuddy/blob/main/doc/DeveloperGuide.md)
