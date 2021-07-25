@@ -259,12 +259,12 @@ Problems encountered: <br>
 Problems encountered: <br>
 None . <br>
 The create function works well, and the system will make sure the input details are correct before they allow the users to create a study session.<br>
-However, how can the system detect when some users are abusing the system ? [Additional function that can add to Milestone 3: Maybe we can limit the groups a user can create?]
+
 
 <h4> System testing 3 - Join a group function </h4>
 Problems encountered: <br>
 1. Upon clicking the join button, the user information will be updated to firebase, but the screen does not refresh automatically, and the group that the user just joined still show up on the screen. Only if the user exits the join screen and reenter the screen, the data will be updated. [Problem solved by everytime a user join the group, we direct them to our homepage and a pop up message will show that they have successfully join the group.] <br>
-2. What if the user wants to remove himself from the group? or acidentally press the join button? [Additional function that can add to Milestone 3: Remove a member from the group]
+
 
 <h4> System testing 4 - Chat function </h4>
 Problems encoountered: <br>
